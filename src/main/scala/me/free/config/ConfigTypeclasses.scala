@@ -33,7 +33,7 @@ object ConfigTypeclasses {
   /**
    * Read from a path.
    *
-   * @param path
+   * @param path path provided.
    */
   implicit class RichConfigString(path: String) {
     def load: IO[Either[ConfigReadFailure, Config]] = IO[Either[ConfigReadFailure, Config]] {
