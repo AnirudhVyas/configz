@@ -1,0 +1,10 @@
+name := "configz"
+version := "1.0"
+scalaVersion := "2.12.9"
+resolvers += Resolver.DefaultMavenRepository
+libraryDependencies += "org.typelevel" %% "cats-core" % "2.0.0"
+libraryDependencies += "org.typelevel" %% "cats-effect" % "2.0.0"
+libraryDependencies += "com.typesafe" % "config" % "1.4.0"
+val catsRetryVersion = "1.1.0"
+libraryDependencies += "com.github.cb372" %% "cats-retry" % catsRetryVersion
+libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.14.1"
