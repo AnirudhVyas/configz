@@ -8,7 +8,7 @@ import scala.util.Try
 /**
  * Basic typeclasses for cleaner, better and safer [[Config]].
  *
- * @author ricky.nj@gmail.com
+ * @author anirudh-vyas
  */
 object ConfigTypeclasses {
   import scala.collection.JavaConverters._
